@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "daily-bible-mobile",
-    "slug": "daily-bible-mobile",
+    "name": "Daily Bible Verse",
+    "slug": "daily-bible-verse-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/AppIcon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/SplashScreen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3d6187"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,10 +17,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.munchdevelopment.daily-bible-verse"
+    },
+    "android": {
+      "useNextNotificationsApi": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "bugsnag": {
+        "apiKey": "0361894b8bc78f5f47692cdc550cab94"
+      }
     }
   }
 }
